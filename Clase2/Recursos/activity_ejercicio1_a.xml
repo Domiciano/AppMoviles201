@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_base_container">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/config_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/config" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:textSize="24sp"
+            android:layout_centerInParent="true"
+            android:id="@+id/profile_title"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/hottopic"
+                android:backgroundTint="#000"
+                android:id="@+id/hot_button"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#000"
+                android:id="@+id/noti_button"
+                android:background="@drawable/notificacion"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#000"
+                android:id="@+id/share_button"
+                android:background="@drawable/compartir"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:id="@+id/profile_descripcion"
+            android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit congue varius, imperdiet class egestas sociosqu ac aliquam praesent fusce auctor, interdum sapien sollicitudin platea nibh nisi primis duis. Fermentum in ornare tellus feugiat dapibus nostra tristique consequat donec purus, aenean commodo faucibus velit cursus a ullamcorper suscipit. Libero urna fames magna condimentum aliquet venenatis congue, ad dis risus euismod tincidunt nulla curae, iaculis sociosqu cubilia lacus sodales convallis. Quisque tempor himenaeos dictum integer porttitor habitasse lobortis quam magna, cras elementum nec ultrices aliquam hac egestas malesuada imperdiet, natoque blandit scelerisque cursus nisi cum posuere sagittis. Proin tincidunt pulvinar tempor vulputate nostra sociosqu posuere morbi nunc urna, accumsan montes tortor sagittis convallis himenaeos donec eros. Netus suspendisse conubia luctus non curae pharetra suscipit nunc morbi sagittis, facilisi nec consequat volutpat auctor vitae etiam arcu feugiat aenean, egestas malesuada cubilia nascetur libero penatibus nostra risus porttitor."/>
+
+    </LinearLayout>
+
+</RelativeLayout>
