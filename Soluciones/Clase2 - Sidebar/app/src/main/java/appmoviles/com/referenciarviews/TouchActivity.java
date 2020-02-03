@@ -56,15 +56,36 @@ public class TouchActivity extends AppCompatActivity {
                 (v,event)->{
                     switch (event.getAction()){
                         case MotionEvent.ACTION_DOWN:
-
+                            //Aquí se guarda la variable X en una global
                             Xini = event.getX();
-                            break;
+                            //Se evalúa si el punto de contacto está en
+                            // el 10% a la izquierda de la pantalla
+                            // a lo ancho
+                            if(Xini < 0.1f*console.getWidth()){
+                                //Si retorno true, sigo con el gesto
+                                return true;
+                            }else{
+                                //Retraemos el menú. La posición mínima es (-Ancho del menú)
+                                //La posición máxima es (0)
+                                sidebar.animate().x(-sidebar.getWidth());
+                                //Si retorno false, interrumpo el gesto
+                                return false;
+                            }
+                            //Recordar que GESTO es la sucesión de las acciones
+                            //DOWN -> MOVE -> UP
                         case MotionEvent.ACTION_MOVE:
+                            //Se evalúa si el menú se encuentra totalmente desplegado
                             if(sidebar.getX()+(event.getX()-Xini)>0){
+                                //Si se encuentra totalmente desplegado se
+                                //limita su movimiento para que no exceda su posición
+                                //X máxima
                                 sidebar.setX(0);
                             }else {
+                                //Si no se encuentra totalmente desplegado, se mueve
+                                //normalmente
                                 sidebar.setX(sidebar.getX() + (event.getX() - Xini));
                             }
+                            //Luego de cada movimiento, se actualiza la variable X
                             Xini = event.getX();
                             break;
                         case MotionEvent.ACTION_UP:
