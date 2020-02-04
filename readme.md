@@ -6,7 +6,7 @@ Bienvenido al curso de aplicaciones móviles. Aquí podrá encontrar los recurso
 
 ### Guía del Pitch Elevator
 Debe hacer una presentación para el 18 (grupo martes) y 20 (grupo jueves) de Febrero de 2020. Este día se escogerá el proyecto final que implementará para la asignatura. Siga las instrucciones en el enlance:
-[Guía del pitch]()
+[Guía del pitch](https://github.com/Domiciano/AppMoviles201/blob/master/Asignatura/Gui%CC%81a%20sobre%20pitch.pdf)
 
 
 
