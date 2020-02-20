@@ -20,7 +20,7 @@
         />
 
     <TextView
-        android:id="@+id/nameRowField"
+        android:id="@+id/nameField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -39,7 +39,7 @@
         android:layout_marginTop="16dp"
         android:text="3111111111"
         app:layout_constraintStart_toEndOf="@+id/photoUser"
-        app:layout_constraintTop_toBottomOf="@+id/nameRowField" />
+        app:layout_constraintTop_toBottomOf="@+id/nameField" />
 
     <Button
         android:id="@+id/callButton"
