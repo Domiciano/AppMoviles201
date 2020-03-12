@@ -7,6 +7,9 @@ Bienvenido al curso de aplicaciones móviles. Aquí podrá encontrar los recurso
 ### Calendario de entregas
 1. (Semana 10) Entrega del informe y exposición del prototipo en MarvelApp
 
+### Aplicaciones multilenguaje
+https://developer.android.com/training/basics/supporting-devices/languages
+
 ### Utilidades de mapas
 https://developers.google.com/maps/documentation/android-sdk/utility
 
