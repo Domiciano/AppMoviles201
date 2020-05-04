@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "612300733454",
+    "firebase_url": "https://facelogprueba.firebaseio.com",
+    "project_id": "facelogprueba",
+    "storage_bucket": "facelogprueba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612300733454:android:aa031500a0f1c019f9505f",
+        "android_client_info": {
+          "package_name": "appmoviles.com.chatandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612300733454-knq24sntvs87o4tnin13dh9b9lcdonlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appmoviles.com.chatandroid",
+            "certificate_hash": "5c5b2de82b1758cb5333027c81e2296c7dbac2b8"
+          }
+        },
+        {
+          "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRQL69gQ_Rd3xyxef3Bvb-X85U3gJBRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612300733454:android:ad2803538e615a96f9505f",
+        "android_client_info": {
+          "package_name": "appmoviles.com.videoguia31"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612300733454-u4d0mg1stksoo3qo2di7visa049akdjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appmoviles.com.videoguia31",
+            "certificate_hash": "5c5b2de82b1758cb5333027c81e2296c7dbac2b8"
+          }
+        },
+        {
+          "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRQL69gQ_Rd3xyxef3Bvb-X85U3gJBRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612300733454:android:39dcc0b8592b3b72f9505f",
+        "android_client_info": {
+          "package_name": "co.edu.icesi.facelogprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612300733454-6ss5lcbs9vgb0rs1p7264t3i0n405uaj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.icesi.facelogprueba",
+            "certificate_hash": "29551c47abe3dd12ed2ef88fd3153ef0adead0a5"
+          }
+        },
+        {
+          "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRQL69gQ_Rd3xyxef3Bvb-X85U3gJBRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612300733454-fq88aclah02hdhg093ubhgvmsd84ipuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
