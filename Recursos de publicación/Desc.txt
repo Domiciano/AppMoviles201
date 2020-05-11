@@ -1,0 +1,7 @@
+AppMoviles192
+
+Descripción simple:
+Aplicación del curso de aplicaciones móviles.
+
+Descripción completa
+Aplicación del curso de aplicaciones móviles de La Universidad Icesi. 
